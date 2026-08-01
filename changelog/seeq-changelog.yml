@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+source: https://python-docs.seeq.com/changelog.html
+scope: seeq-spy Python module
+scheme: server-tracked (three-part, e.g. 202.2); SPy versioning independent of the seeq package
+current_version: '202.2'
+docs: https://python-docs.seeq.com/changelog.html
+entries:
+- version: '202.2'
+  type: bugfix
+  breaking: false
+  highlights: Fix Train Export and Register example notebook by setting target_opset=21 in convert_sklearn (issue 61728).
+- version: '202.0'
+  type: feature
+  breaking: true
+  highlights: Notify multiple email addresses on skipped execution and auto-unschedule in job scheduling; job scheduling functions now require keyword arguments for optional parameters (issue 61200).
+- version: '201.7'
+  type: bugfix
+  breaking: false
+  highlights: Resolved dry_run parameter being ignored in workbook push operations (issue 61305).
+- version: '201.6'
+  type: feature
+  breaking: false
+  highlights: Extended notification support for scheduled notebook execution errors to multiple recipients (issue 60535).
+- version: '201.5'
+  type: bugfix
+  breaking: false
+  highlights: Enhanced error handling in workbook push to surface worksheet-specific errors (issue 59890).

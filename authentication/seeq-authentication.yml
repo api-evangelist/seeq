@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+source: https://python-docs.seeq.com/
+docs: https://python-docs.seeq.com/
+note: >-
+  Seeq exposes a REST API served per-instance by Seeq Server (self-hosted or Seeq Cloud) at /api,
+  with an interactive Swagger surface on the running instance. No public, cross-tenant OpenAPI is
+  published, so this profile is derived from the SPy (Python) login documentation rather than a spec.
+summary:
+  types: [apiKey, http, oauth2]
+  api_key_in: [header]
+  oauth2_flows: [authorizationCode]
+schemes:
+- name: AccessKey
+  type: apiKey
+  in: header
+  description: >-
+    Access keys are the recommended programmatic credential. A user generates an access key + password
+    in Seeq and supplies them via spy.login(access_key=..., password=...); they authenticate as that user
+    without interactive login.
+  sources: [https://python-docs.seeq.com/]
+- name: UsernamePassword
+  type: http
+  scheme: basic
+  description: >-
+    Interactive username/password login resolved against a named authentication directory
+    (e.g. Seeq built-in directory, Windows Auth, or a configured identity provider).
+  sources: [https://python-docs.seeq.com/]
+- name: OAuth2
+  type: oauth2
+  description: >-
+    OAuth 2.0 / SSO login is supported for single sign-on identity providers configured on the Seeq
+    Server, used for browser-based and delegated authentication.
+  flows:
+  - flow: authorizationCode
+  sources: [https://python-docs.seeq.com/]

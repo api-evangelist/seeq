@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: https://python-docs.seeq.com/changelog.html
+versioning:
+  scheme: >-
+    The seeq Python package version mirrors the Seeq Server release it targets (e.g. 66.167.0.20260720).
+    The SPy module (seeq-spy) carries an independent three-part version (e.g. 202.2). The REST API is
+    served by Seeq Server per instance at /api with an interactive Swagger surface.
+  seeq_package_current: 66.167.0.20260720
+  spy_current: '202.2'
+  docs: https://python-docs.seeq.com/changelog.html
+deprecation:
+  policy_url: null
+  sunset_header: false
+  note: No public REST-API deprecation/sunset policy located; SPy changelog flags backward-incompatible changes per release.
+sla:
+  url: null
+status_page: null
+incident_reporting:
+  url: https://trust.seeq.com/
+  note: Trust center documents an incident reporting process and publishes CVE advisories (e.g. CVE-2026-31431).
+deprecated_operations: []

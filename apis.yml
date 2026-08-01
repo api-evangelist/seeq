@@ -1,8 +1,27 @@
 aid: seeq
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seeq.png
 name: Seeq
-description: 'Seeq is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. Sector: manufacturing. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Seeq is an industrial analytics, machine learning and AI software company (Seattle, WA; backed by
+  Insight Partners) serving process manufacturing industries such as oil & gas, chemicals, pharmaceuticals
+  & life sciences, mining & metals, power & utilities, food & beverage and semiconductors. The Seeq AI
+  Platform combines operational time-series data with employee expertise and historical context to speed
+  investigation, monitoring and decision-making. Programmatic access is through the Seeq Server REST API
+  (served per instance at /api with an interactive Swagger surface) and the official Python modules `seeq`
+  and `seeq-spy` (SPy), which offer Pandas/NumPy/Jupyter-optimized functions for searching, pulling,
+  pushing and calculating on signals, conditions and asset models via Seeq Data Lab.
 url: https://raw.githubusercontent.com/api-evangelist/seeq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Manufacturing
+- Industrial Analytics
+- Time Series
+- Machine Learning
+- Artificial Intelligence
+- Process Manufacturing
+- Data Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,38 @@ maintainers:
 common:
 - type: Website
   url: https://www.seeq.com/
+- type: Documentation
+  url: https://python-docs.seeq.com/
+- type: Support
+  url: https://support.seeq.com/
+- type: Blog
+  url: https://www.seeq.com/resources/blog/
+- type: TermsOfService
+  url: https://www.seeq.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.seeq.com/privacy-policy/
+- type: Compliance
+  url: https://trust.seeq.com/
+- type: TrustCenter
+  url: security/seeq-trust-center.yml
+- type: DomainSecurity
+  url: security/seeq-domain-security.yml
+- type: Packages
+  url: packages/seeq-packages.yml
+- type: SDKs
+  url: packages/seeq-packages.yml
+- type: Authentication
+  url: authentication/seeq-authentication.yml
+- type: Conformance
+  url: conformance/seeq-conformance.yml
+- type: ChangeLog
+  url: changelog/seeq-changelog.yml
+- type: Lifecycle
+  url: lifecycle/seeq-lifecycle.yml
+- type: LLMsTxt
+  url: llms/seeq-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 9
+  pass: local-v1

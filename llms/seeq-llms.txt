@@ -1,0 +1,25 @@
+# Seeq
+
+> Seeq is an industrial analytics, machine learning and AI platform for time-series and process manufacturing data. It combines operational data with employee expertise and historical context to speed decisions across process industries. Programmatic access is via the Seeq Server REST API (served per instance at /api with an interactive Swagger surface) and the official Python modules `seeq` and `seeq-spy` (SPy).
+
+## APIs
+- [Seeq Server REST API](https://python-docs.seeq.com/): Per-instance REST API at /api; authenticated via access keys, username/password (authentication directory), or OAuth 2.0 / SSO.
+
+## SDKs & Packages
+- [seeq (PyPI)](https://pypi.org/project/seeq/): Official Python module for the Seeq Server REST API; version mirrors Seeq Server (66.167.0.20260720).
+- [seeq-spy (PyPI)](https://pypi.org/project/seeq-spy/): Official SPy module, Pandas/NumPy/Jupyter-optimized (202.2); requires a Seeq Data Lab license.
+
+## Docs
+- [Python / SPy documentation](https://python-docs.seeq.com/)
+- [SPy changelog](https://python-docs.seeq.com/changelog.html)
+- [Knowledge base](https://support.seeq.com/)
+- [Support service desk](https://seeq.atlassian.net/servicedesk/customer/portal/3)
+
+## Security & Compliance
+- [Trust center](https://trust.seeq.com/): SOC 2, ISO/IEC 27001:2022, CSA STAR Level 1, BSI C5, VPAT.
+
+## Company
+- [Website](https://www.seeq.com/)
+- [Blog](https://www.seeq.com/resources/blog/)
+- [Privacy policy](https://www.seeq.com/privacy-policy/)
+- [Terms of use](https://www.seeq.com/terms-of-use/)

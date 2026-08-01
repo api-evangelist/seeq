@@ -1,0 +1,12 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of Seeq hosts
+host: https://www.seeq.com
+note: No /.well-known/ discovery documents were published on the probed hosts (all 404). Recorded for auditability; no canonical WellKnown pointer wired.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
