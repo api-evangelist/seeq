@@ -2,11 +2,19 @@ generated: '2026-07-21'
 method: searched
 source: live probes of Seeq hosts
 host: https://www.seeq.com
-note: No /.well-known/ discovery documents were published on the probed hosts (all 404). Recorded for auditability; no canonical WellKnown pointer wired.
-documents:
-- path: /.well-known/security.txt
-  status: 404
-- path: /.well-known/openid-configuration
-  status: 404
-- path: /.well-known/oauth-authorization-server
-  status: 404
+note: No /.well-known/ discovery documents were published on the probed hosts (all 404). Recorded for
+  auditability; no canonical WellKnown pointer wired.
+hosts:
+- host: https://www.seeq.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
