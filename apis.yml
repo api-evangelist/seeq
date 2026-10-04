@@ -48,10 +48,11 @@ tags:
 - Manufacturing
 - Industrial Analytics
 - Time Series
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Process Manufacturing
 - Data Analytics
+- Industrial
 tags_raw:
 - Company
 - Manufacturing
@@ -61,6 +62,8 @@ tags_raw:
 - Artificial Intelligence
 - Process Manufacturing
 - Data Analytics
+- Machine-Learning
+- Industrial
 apis: []
 maintainers:
 - FN: Kin Lane
