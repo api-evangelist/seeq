@@ -27,3 +27,29 @@
   relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
+- slug: seeq-slack-own
+  label: Slack (own)
+  partner: slack
+  partner_name: Slack (own)
+  category: Slack app
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://slack.com/marketplace/APKMF0F1C-qube
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: seeq-zoom-own
+  label: Zoom (own)
+  partner: zoom
+  partner_name: Zoom (own)
+  category: Zoom app
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://marketplace.zoom.us/apps/CdxdZhqoSWCQ7vbLaLffWQ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
