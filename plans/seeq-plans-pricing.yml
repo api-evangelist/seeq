@@ -1,0 +1,12 @@
+name: Seeq pricing
+generated: '2026-10-20'
+method: none
+audience: unclear
+pricing_basis: negotiated
+published: false
+plan_count: 0
+plans: []
+checked:
+- url: https://www.seeq.com/pricing/
+  status: 404
+note: No public pricing page; www.seeq.com/pricing/ returns 404 and the site routes buyers to sales contact.

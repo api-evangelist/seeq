@@ -1,5 +1,12 @@
-generated: '2026-10-13'
+generated: '2026-10-20'
 method: searched
+source:
+- slack/integrations/slack-integration-edges.yml
+- zoom/integrations/zoom-integration-edges.yml
+- https://zapier.com/apps/seeq/integrations
+- https://n8n.io/integrations/seeq/
+- https://composio.dev/toolkits/seeq
+- https://monid.ai/tools/seeq
 checked:
 - https://api.nuget.org/v3
 - https://aws.amazon.com/marketplace/
@@ -14,6 +21,11 @@ checked:
 - https://rubygems.org/api/v1
 - slack/integrations/slack-integration-edges.yml
 - zoom/integrations/zoom-integration-edges.yml
+- https://composio.dev/toolkits/seeq
+- https://monid.ai/tools/seeq
+- https://n8n.io/integrations/seeq/
+- https://zapier.com/apps/seeq/integrations
+summary: null
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -151,6 +163,4 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-compliance-assurance.py
   first_seen: '2026-10-20'
-source:
-- slack/integrations/slack-integration-edges.yml
-- zoom/integrations/zoom-integration-edges.yml
+templates: []

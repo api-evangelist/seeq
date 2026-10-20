@@ -24,25 +24,24 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seeq.png
 name: Seeq
-description: >-
-  Seeq is an industrial analytics, machine learning and AI software company (Seattle, WA; backed by
-  Insight Partners) serving process manufacturing industries such as oil & gas, chemicals, pharmaceuticals
+description: Seeq is an industrial analytics, machine learning and AI software company (Seattle, WA; backed
+  by Insight Partners) serving process manufacturing industries such as oil & gas, chemicals, pharmaceuticals
   & life sciences, mining & metals, power & utilities, food & beverage and semiconductors. The Seeq AI
   Platform combines operational time-series data with employee expertise and historical context to speed
   investigation, monitoring and decision-making. Programmatic access is through the Seeq Server REST API
   (served per instance at /api with an interactive Swagger surface) and the official Python modules `seeq`
-  and `seeq-spy` (SPy), which offer Pandas/NumPy/Jupyter-optimized functions for searching, pulling,
-  pushing and calculating on signals, conditions and asset models via Seeq Data Lab.
+  and `seeq-spy` (SPy), which offer Pandas/NumPy/Jupyter-optimized functions for searching, pulling, pushing
+  and calculating on signals, conditions and asset models via Seeq Data Lab.
 url: https://raw.githubusercontent.com/api-evangelist/seeq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (local-v5; was portfolio-lead)
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-20'
 tags:
 - Company
 - Manufacturing
@@ -64,13 +63,20 @@ tags_raw:
 - Data Analytics
 - Machine-Learning
 - Industrial
-apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Hosts
+  url: hosts/seeq-hosts.yml
+- type: IntegrationEdges
+  url: integrations/seeq-integration-edges.yml
+- type: Vendors
+  url: vendors/seeq-vendors.yml
+- type: Leadership
+  url: https://www.seeq.com/company/team/
 - type: Website
   url: https://www.seeq.com/
 - type: Documentation
@@ -103,8 +109,23 @@ common:
   url: lifecycle/seeq-lifecycle.yml
 - type: LLMsTxt
   url: llms/seeq-llms.txt
+apis: []
 x-enrichment:
-  date: '2026-07-21'
-  status: enriched
-  artifacts_added: 9
-  pass: local-v1
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v5
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: Seeq Server REST API is served per customer instance with its Swagger only inside each deployment;
+    no public OpenAPI exists on seeq.com hosts and the published python-docs.seeq.com covers only the
+    seeq/seeq-spy Python SDKs.
+  evidence:
+  - url: https://python-docs.seeq.com/llms.txt
+    status: 404
+  - url: https://www.seeq.com/pricing/
+    status: 404
+  - url: https://python-docs.seeq.com/
+    status: 200
+  checked: '2026-10-20'

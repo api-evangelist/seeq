@@ -1,4 +1,4 @@
-generated: '2026-07-21'
+generated: '2026-10-20'
 method: searched
 source: https://pypi.org
 packages:
@@ -7,18 +7,23 @@ packages:
   name: seeq
   url: https://pypi.org/project/seeq/
   install: pip install seeq
-  version: 66.167.0.20260720
+  version: 66.213.0.20261016
   requires_python: '>=2.7'
   official: true
-  description: Official Python module for interfacing with the Seeq Server REST API; version mirrors Seeq Server. Includes the SPy module for Server R60+.
+  description: Official Python module for interfacing with the Seeq Server REST API;
+    version mirrors Seeq Server. Includes the SPy module for Server R60+.
   docs: https://python-docs.seeq.com/
+  published: '2026-10-16'
 - language: python
   registry: pypi
   name: seeq-spy
   url: https://pypi.org/project/seeq-spy/
   install: pip install seeq-spy
-  version: '202.2'
+  version: '202.19'
   requires_python: '>=3.8'
   official: true
-  description: Official SPy (Seeq Python) module - a friendly, Pandas/NumPy/Jupyter-optimized interface for searching, pulling, pushing, calculating and building asset models in Seeq. Requires a Seeq Data Lab license.
+  description: Official SPy (Seeq Python) module - a friendly, Pandas/NumPy/Jupyter-optimized
+    interface for searching, pulling, pushing, calculating and building asset models
+    in Seeq. Requires a Seeq Data Lab license.
   docs: https://python-docs.seeq.com/
+  published: '2026-10-16'

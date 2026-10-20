@@ -1,0 +1,6 @@
+name: Seeq rate limits
+generated: '2026-10-20'
+method: none
+limit_count: 0
+limits: []
+note: Seeq Server is deployed per customer instance; no published REST API rate limits were found on python-docs.seeq.com or support.seeq.com.

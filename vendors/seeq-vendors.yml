@@ -1,0 +1,75 @@
+generated: '2026-10-20'
+method: probed
+source: pre-flight dossier (docs platform, portal detections) + CNAME chains and response headers of the hosts apis.yml names
+registry: all/0-working/vendors.yml
+areas_vocabulary:
+- documentation
+- developer-portal
+- api-gateway
+- cdn
+- hosting
+- sdk-generation
+- api-collections
+- status-page
+- support
+- community
+- identity
+- mcp-hosting
+vendors:
+- vendor: cloudflare
+  name: Cloudflare
+  area: cdn
+  host: www.seeq.com
+  evidence: header:cf-ray
+  signal: header
+  confidence: high
+  kin_score:
+  - https_enforced
+  - hsts
+- vendor: fastly
+  name: Fastly
+  area: cdn
+  host: python-docs.seeq.com
+  evidence: header:x-served-by:cache-
+  signal: header
+  confidence: high
+  kin_score: []
+- vendor: sphinx
+  name: Sphinx
+  area: documentation
+  host: python-docs.seeq.com
+  evidence: markup:sphinx
+  signal: docs-platform
+  confidence: medium
+  kin_score: []
+- vendor: github-pages
+  name: GitHub Pages
+  area: hosting
+  host: python-docs.seeq.com
+  evidence: cname:seeq12.github.io
+  signal: docs-platform
+  confidence: medium
+  kin_score: []
+- vendor: wpengine
+  name: WP Engine
+  area: hosting
+  host: www.seeq.com
+  evidence: header:x-powered-by:wp engine
+  signal: header
+  confidence: high
+  kin_score: []
+reliance:
+  areas_vendor_served:
+  - cdn
+  - documentation
+  - hosting
+  vendor_count: 5
+  areas_observed: 12
+  share_of_observable_areas: 0.25
+  note: areas where a third party was DETECTED serving this provider; an area absent here was either self-run or not observed, and this script
+    cannot tell those apart
+checked:
+- 'docs-platform: sphinx'
+- www.seeq.com (Website)
+- python-docs.seeq.com (Documentation)
+- support.seeq.com (Support)
