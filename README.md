@@ -110,18 +110,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 26.3** — thin · rubric 0.24.0 · scored 2026-10-20
+**Kin Score 26.1** — emerging · rubric 0.25.0 · scored 2026-10-23
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
+| Discoverability | 55.4 |
 | Contract quality | 0.0 |
 | Contract governance | 18.2 |
 | Operational transparency | 15.8 |
 | Developer ergonomics | 35.7 |
 | Access clarity | 36.8 |
 
-**Agent readiness 5.0** — human-only
+**Agent readiness 2.5** — human-only
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -133,7 +133,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Idempotency | — |
 | Error Semantics | — |
 | OpenAPI Examples | — |
-| Rate Limit Signal | documented (partial credit) |
+| Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | — |
@@ -144,6 +144,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 
 **Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
 
