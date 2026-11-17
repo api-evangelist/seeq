@@ -72,6 +72,10 @@ Seeq is an industrial analytics, machine learning and AI software company (Seatt
 
 Everything profiled for Seeq is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/seeq/](https://apis.io/providers/seeq/)** — or go straight to one of the APIs or properties below.
 
+### APIs (1)
+
+- [Seeq API](https://apis.io/apis/seeq/seeq-api/) — Seeq provides a REST API documented at their Python documentation site.
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
@@ -83,18 +87,6 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Seeq Authentication](https://apis.io/security/seeq/seeq-authentication/)
 - [Seeq Domain Security](https://apis.io/security/seeq/seeq-domain-security/)
 - [Seeq Trust Center](https://apis.io/security/seeq/seeq-trust-center/)
-
-#### Plans and pricing (1)
-
-Published plans, tiers and prices.
-
-- [Seeq Plans Pricing](https://apis.io/plans/seeq/seeq-plans-pricing/)
-
-#### Rate limits (1)
-
-Published request limits.
-
-- [Seeq Rate Limits](https://apis.io/rate-limits/seeq/seeq-rate-limits/)
 
 ## Where to find this API
 
